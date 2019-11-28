@@ -1,0 +1,17 @@
+{
+    "name": "verdaccio-bug",
+    "version": "1.0.0",
+    "repository": "https://github.com/ViceIce/verdaccio-bug.git",
+    "author": "Michael Kriese <michael.kriese@visualon.de>",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "verdaccio": "4.3.5"
+    },
+    "scripts": {
+        "start": "verdaccio -c ./config.yml"
+    },
+    "workspaces": [
+        "plugins/*"
+    ]
+}
